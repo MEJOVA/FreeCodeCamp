@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
     <form action="" id="survey-form">
-        <label for="name" id="name-label">
-            Name:
-            <input type="text" id="name" placeholder="Enter your name">
-        </label>
-        <label for="email" id="email-label">
-            Email:
-            <input type="email" id="email" placeholder="Enter your Email">
-        </label>
-        <label for="age" id="number-label">
-            Age:
-            <input type="number" id="age" min="13" max="120" placeholder="Age">
-        </label>
+      <label for="name" id="name-label">
+        Name:
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </label>
+      <label for="email" id="email-label">
+        Email:
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </label>
+      <label for="age" id="number-label">
+        Age:
+        <input type="number" id="number" min="13" max="120" placeholder="Age" />
+      </label>
+      <label for="">
+        <select name="" id="dropdown">
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </label>
+      <label for=""
+        >recommed
+        <input type="radio" name="recommed" id="" value="Defintely" />
+        <input type="radio" name="recommed" id="" value="Maybe" />
+        <input type="radio" name="recommed" id="" value="Not Sure" />
+      </label>
+      <label for="">
+        <select name="" id="dropdown">
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </label>
+      <label for="">
+        <input type="checkbox" name="" id="" value="a" />
+        <input type="checkbox" name="" id="" value="b" />
+        <input type="checkbox" name="" id="" value="c" />
+        <input type="checkbox" name="" id="" value="d" />
+        <input type="checkbox" name="" id="" value="e" />
+        <input type="checkbox" name="" id="" value="f" />
+        <input type="checkbox" name="" id="" value="g" />
+        <input type="checkbox" name="" id="" value="h" />
+        <input type="checkbox" name="" id="" value="i" />
+        <input type="checkbox" name="" id="" value="j" />
+      </label>
+
+      <label for="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit" />
     </form>
-</body>
+  </body>
 </html>
